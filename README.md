@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.com/npalm/notes-service-java.svg?branch=master)](https://travis-ci.com/npalm/notes-service-java)
+[![Maintainability](https://api.codeclimate.com/v1/badges/42bf989099f64066b5d7/maintainability)](https://codeclimate.com/github/npalm/notes-service-java/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/42bf989099f64066b5d7/test_coverage)](https://codeclimate.com/github/npalm/notes-service-java/test_coverage)
 
 # GraphQL Spring Boot service
 
