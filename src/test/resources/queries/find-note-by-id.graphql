@@ -1,0 +1,6 @@
+query findNoteById($id: Long!) {
+  note(id: $id) {
+    id
+    note
+  }
+}

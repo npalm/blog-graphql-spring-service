@@ -1,0 +1,34 @@
+server:
+  port: 8080
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: false
+  h2:
+    console:
+      path: /h2
+      enabled: true
+graphql:
+  servlet:
+    mapping: /graphql/*
+    enabled: true
+    corsEnabled: true
+    subscriptions:
+      websocket:
+        path: /subscriptions
+
+graphiql:
+  mapping: /graphiql
+  endpoint: /graphql
+  enabled: true
+  pageTitle: GraphiQL
+
+
+---
+# development profile
+h2:
+  console:
+    path: /h2
+    enabled: true

@@ -1,0 +1,10 @@
+query FindNotes {
+  notes {
+    id
+    note
+    createdOn
+    author {
+      name
+    }
+  }
+}

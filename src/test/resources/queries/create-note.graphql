@@ -1,0 +1,11 @@
+mutation CreateNote($inputNote: InputNote!, $inputAuthor: InputPerson!) {
+  addNote(note: $inputNote, author: $inputAuthor) {
+    id
+    note
+    createdOn
+    author {
+      id
+      name
+    }
+  }
+}
