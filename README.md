@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/npalm/notes-service-java.svg?branch=master)](https://travis-ci.com/npalm/notes-service-java)
+
 # GraphQL Spring Boot service
 
 
