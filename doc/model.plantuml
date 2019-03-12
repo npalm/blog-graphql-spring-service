@@ -23,5 +23,5 @@ object Person {
 }
 
 
-Person --{ Comment : has
+Person --{ Note : has
 @enduml
