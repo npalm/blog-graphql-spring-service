@@ -23,9 +23,6 @@ public class Note extends BaseEntity {
 
     @ManyToOne(fetch = FetchType.EAGER)
     private Person author;
-//
-//    @ManyToOne(fetch = FetchType.EAGER)
-//    @JoinColumn(name = "talk_id")
-//    private Talk talk;
+
 
 }

@@ -17,9 +17,7 @@ object Note {
 
 object Person {
     String : name
-    String : githubAccount
-    String : blog
-    List<Talk> : talks
+    String : email
 }
 
 
