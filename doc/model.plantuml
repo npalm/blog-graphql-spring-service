@@ -1,0 +1,27 @@
+@startuml
+hide footbox
+skinparam roundcorner 20
+skinparam handwritten true
+skinparam backgroundcolor transparent
+
+skinparam note {
+  FontName Impact
+}
+
+
+object Note {
+    String : comment
+    Person : author
+    Date : createdOn
+}
+
+object Person {
+    String : name
+    String : githubAccount
+    String : blog
+    List<Talk> : talks
+}
+
+
+Person --{ Comment : has
+@enduml
