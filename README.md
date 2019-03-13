@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.com/npalm/notes-service-java.svg?branch=master)](https://travis-ci.com/npalm/notes-service-java)
-[![Maintainability](https://api.codeclimate.com/v1/badges/42bf989099f64066b5d7/maintainability)](https://codeclimate.com/github/npalm/notes-service-java/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/42bf989099f64066b5d7/test_coverage)](https://codeclimate.com/github/npalm/notes-service-java/test_coverage)
+[![Build Status](https://travis-ci.com/npalm/blog-graphql-spring-service.svg?branch=master)](https://travis-ci.com/npalm/blog-graphql-spring-service)
+[![Maintainability](https://api.codeclimate.com/v1/badges/42bf989099f64066b5d7/maintainability)](https://codeclimate.com/github/npalm/blog-graphql-spring-service/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/42bf989099f64066b5d7/test_coverage)](https://codeclimate.com/github/npalm/blog-graphql-spring-service/test_coverage)
 
 # GraphQL Spring Boot Blog
 
@@ -17,7 +17,7 @@ This repo contains a simple Spring Boot (2.x) service that implements  [GraphQL]
 ## Application
 The application implements GraphQL on top of JPA repositories. The application provides basic functionality to store Person and Notes.
 
-![model](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/npalm/notes-service-java/master/doc/demo-model.plantuml&counter=1)
+![model](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/npalm/blog-graphql-spring-service/master/doc/demo-model.plantuml&counter=1)
 
 The graphQL API contains *queries*, *mutations* and *subscriptions*. For more details have a look at the [schema](src/main/resources/demo.graphqls)
 
