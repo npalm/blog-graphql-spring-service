@@ -11,7 +11,7 @@ This repo contains a simple Spring Boot (2.x) service that implements  [GraphQL]
 ![graphql-and-spring](./doc/spring-and-graphql.png)
 
 - [graphql-java-common](https://github.com/graphql-java/graphql-java-tools) - GraphQL implementation which is a schema first implementation of GraphQL.
-- [graphql-spring-boot](https://github.com/graphql-java/graphql-spring-boot) - A Sprinb Boot Starter for GraphQL.
+- [graphql-spring-boot](https://github.com/graphql-java-kickstart/graphql-spring-boot) - A Spring Boot Starter for GraphQL.
 - Spring Boot 2.x
 
 ## Application
